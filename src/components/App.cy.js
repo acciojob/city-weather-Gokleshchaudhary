@@ -1,6 +1,6 @@
 // cypress/component/App.cy.js
 import React from 'react';
-import App from '../../src/App'; // ✅ App.js src folder में है
+import App from '../../src/components/App'; // ✅ यही लाइन
 
 describe('App', () => {
   beforeEach(() => {
@@ -11,4 +11,3 @@ describe('App', () => {
     cy.get('input.search').should('exist');
   });
 });
-
