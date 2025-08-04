@@ -1,4 +1,5 @@
 // src/App.js
+import 'regenerator-runtime/runtime'; // ✅ Add this line at the top for async/await to work
 import React, { useState } from 'react';
 
 const App = () => {
@@ -36,4 +37,3 @@ const App = () => {
 };
 
 export default App;
-
