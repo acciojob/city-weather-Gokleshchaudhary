@@ -1,6 +1,6 @@
 // App.cy.js
 import React from 'react'
-import App from '../App'
+import App from './src/App'     // ✅ Correct path to App.js
 import { mount } from 'cypress/react'
 
 describe('App', () => {
@@ -12,4 +12,3 @@ describe('App', () => {
     cy.get('.search').should('exist')
   })
 })
-
